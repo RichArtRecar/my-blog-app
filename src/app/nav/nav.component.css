@@ -1,0 +1,8 @@
+#jumbro {
+    background-image: url("src/assets/photo1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#nav-color{
+    background-color: rgba(184, 23, 170, 0.986);
+}
