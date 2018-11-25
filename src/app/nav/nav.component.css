@@ -1,8 +1,9 @@
 #jumbro {
-    background-image: url("src/assets/photo1.jpg");
+    background-image: url("src/assets/leaf.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
 #nav-color{
-    background-color: rgba(184, 23, 170, 0.986);
+    background-color: rgba(142, 226, 215, 0.24);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
