@@ -3,12 +3,55 @@
 <head>
   <meta charset="utf-8">
   <title>MyBlogApp</title>
+ 
   <base href="/">
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
 <body>
-  <app-root></app-root>
+  
+<nav id="nav-color" class="navbar sticky-top navbar-expand-lg navbar-light">
+    <a class="navbar-brand" href="#">FTMB</a>
+    <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">New Posts</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Helpful Links</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+    <div id="jumbro" class="jumbotron jumbotron-fluid">
+      <div class="container">
+        <h1 class="display-5">First Time Mama Blog</h1>
+        <p class="lead">The end of Pregnancy is Only the Beginning</p>
+      </div>
+    </div>
+    <div class="content_layer">
+      <div class="prxlx_lyr_1"></div>
+    </div>
+    
+      
+    
+    
+  
+  <!--<app-root></app-root>-->
+  
+  <script>
+      function parallax(){
+          var prxlx_lyr_1 = document.getElementsByClassName('prxlx_lyr_1');
+          prxlx_lyr_1.style.top = window.pageYOffset+'px';
+      }
+      window.addEventListener("scroll", parallax, false);
+  </script>
 </body>
 </html>
