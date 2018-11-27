@@ -1,0 +1,13 @@
+
+
+#jumbro {
+    background-image: url("src/assets/leaf.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#nav-color{
+    background-color: rgba(92, 194, 178, 0.822);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
